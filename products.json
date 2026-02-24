@@ -1,0 +1,653 @@
+[
+  {
+    "id": 1,
+    "name": "Premium Cotton T-Shirt",
+    "category": "T-Shirts",
+    "description": "Soft, breathable 100% cotton t-shirt with modern fit. Perfect for everyday wear.",
+    "price": 2499,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2025/09/BEST-MENS-WHITE-TEES-SUB-2048px-7693.jpg?auto=webp&quality=75&width=1024",
+      "https://cdn.thewirecutter.com/wp-content/media/2025/09/BEST-MENS-WHITE-TEES-SUB-2048px-7696.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Black", "Navy"],
+    "reviews": ["Great fit and very comfortable!", "Love the fabric quality."]
+  },
+  {
+    "id": 2,
+    "name": "Slim Fit Jeans",
+    "category": "Jeans",
+    "description": "Classic slim-fit jeans with stretch for all-day comfort.",
+    "price": 6499,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2024/12/BEST-MENS-JEANS-2048px-5145.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["28", "30", "32", "34"],
+    "colors": ["Blue", "Black"],
+    "reviews": ["Perfect length and stretch.", "High quality denim."]
+  },
+  {
+    "id": 3,
+    "name": "Floral Summer Dress",
+    "category": "Dresses",
+    "description": "Lightweight, flowy summer dress with beautiful floral print.",
+    "price": 4999,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/cd7512e4-d172-4e7e-8455-7c151be3b6b5.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["XS", "S", "M", "L"],
+    "colors": ["Floral Multicolor", "Pink"],
+    "reviews": ["So pretty and comfortable!", "Great for hot weather."]
+  },
+  {
+    "id": 4,
+    "name": "Oversized Hoodie",
+    "category": "Hoodies",
+    "description": "Cozy oversized hoodie with kangaroo pocket and soft fleece.",
+    "price": 5999,
+    "images": [
+      "https://i.etsystatic.com/46625074/r/il/788ffa/6422682324/il_fullxfull.6422682324_tpw1.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Grey", "Black"],
+    "reviews": ["Super warm and stylish.", "Love the oversized fit."]
+  },
+  {
+    "id": 5,
+    "name": "Classic Crew Neck White Tee",
+    "category": "T-Shirts",
+    "description": "Timeless plain white cotton tee, super soft and versatile.",
+    "price": 1899,
+    "images": [
+      "https://m.media-amazon.com/images/I/711EErAYxrL._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White"],
+    "reviews": ["Perfect basic tee!", "Feels premium."]
+  },
+  {
+    "id": 6,
+    "name": "V-Neck Essential T-Shirt",
+    "category": "T-Shirts",
+    "description": "Sleek V-neck in breathable cotton for casual style.",
+    "price": 2299,
+    "images": [
+      "https://m.media-amazon.com/images/I/618X0cuXH6L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black", "White"],
+    "reviews": ["Nice neckline fit.", "Very comfortable."]
+  },
+  {
+    "id": 7,
+    "name": "Graphic Cross Print Tee",
+    "category": "T-Shirts",
+    "description": "Bold gothic cross graphic on vintage wash cotton.",
+    "price": 2699,
+    "images": [
+      "https://m.media-amazon.com/images/I/71KVXVLWFmL._AC_UY1000_.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Brown", "Black"],
+    "reviews": ["Vibrant print!", "Great quality."]
+  },
+  {
+    "id": 8,
+    "name": "Dark Indigo Slim Jeans",
+    "category": "Jeans",
+    "description": "Slim fit dark wash jeans with subtle stretch.",
+    "price": 6999,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2024/12/BEST-MENS-JEANS-2048px-5187.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["29", "31", "33"],
+    "colors": ["Dark Blue"],
+    "reviews": ["Awesome slim fit.", "Looks premium."]
+  },
+  {
+    "id": 9,
+    "name": "High Waist Ripped Jeans",
+    "category": "Jeans",
+    "description": "High rise skinny with ripped knees for edgy look.",
+    "price": 5999,
+    "images": [
+      "https://i.ebayimg.com/images/g/o5oAAOSwGZxgwAcK/s-l1200.jpg"
+    ],
+    "sizes": ["26", "28", "30"],
+    "colors": ["Blue"],
+    "reviews": ["Super flattering.", "Good stretch."]
+  },
+  {
+    "id": 10,
+    "name": "Boho Floral Maxi Dress",
+    "category": "Dresses",
+    "description": "Flowy maxi dress with vibrant floral and ruffle details.",
+    "price": 5499,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a8292d14-a326-40b3-b0c3-a78b91cb01e9.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Multicolor Floral"],
+    "reviews": ["Dreamy and light!", "Perfect summer dress."]
+  },
+  {
+    "id": 11,
+    "name": "Wrap Midi Floral Dress",
+    "category": "Dresses",
+    "description": "Elegant wrap midi with soft floral print and tie waist.",
+    "price": 4999,
+    "images": [
+      "https://publish.purewow.net/wp-content/uploads/sites/2/2018/06/banana-republic-floral-midi-dress.jpg?fit=680%2C489"
+    ],
+    "sizes": ["XS", "S", "M"],
+    "colors": ["Navy Floral"],
+    "reviews": ["Flattering wrap.", "Beautiful pattern."]
+  },
+  {
+    "id": 12,
+    "name": "Grey Pullover Oversized Hoodie",
+    "category": "Hoodies",
+    "description": "Cozy oversized pullover hoodie in soft grey fleece.",
+    "price": 5999,
+    "images": [
+      "https://i.etsystatic.com/46625074/r/il/788ffa/6422682324/il_fullxfull.6422682324_tpw1.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Grey"],
+    "reviews": ["Ultra cozy.", "Love the fit."]
+  },
+  {
+    "id": 13,
+    "name": "Long Sleeve Layering Tee",
+    "category": "T-Shirts",
+    "description": "Soft long sleeve tee ideal for layering.",
+    "price": 2799,
+    "images": [
+      "https://www.gentlemanwithin.com/wp-content/uploads/2019/10/Supima-Cotton-T-Shirt-Sleeve-Length.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["White", "Grey"],
+    "reviews": ["Great for cooler days.", "Nice fabric."]
+  },
+  {
+    "id": 14,
+    "name": "Striped Pocket T-Shirt",
+    "category": "T-Shirts",
+    "description": "Casual striped tee with chest pocket detail.",
+    "price": 2499,
+    "images": [
+      "https://m.media-amazon.com/images/I/711EErAYxrL._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Navy Stripes"],
+    "reviews": ["Classic and comfy.", "Pocket is handy."]
+  },
+  {
+    "id": 15,
+    "name": "Distressed Bootcut Jeans",
+    "category": "Jeans",
+    "description": "Bootcut fit with light distressing for style.",
+    "price": 6999,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2024/12/BEST-MENS-JEANS-2048px-9817.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["28", "30", "32"],
+    "colors": ["Medium Blue"],
+    "reviews": ["Great shape.", "Comfortable wear."]
+  },
+  {
+    "id": 16,
+    "name": "Ruffle Sleeve Summer Dress",
+    "category": "Dresses",
+    "description": "Cute floral dress with ruffle sleeves and flowy skirt.",
+    "price": 4299,
+    "images": [
+      "https://cdn02.pinkoi.com/product/RmHjTB9u/0/1/640x530.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pink Floral"],
+    "reviews": ["Adorable ruffles.", "Light and breezy."]
+  },
+  {
+    "id": 17,
+    "name": "Black Zip-Up Hoodie",
+    "category": "Hoodies",
+    "description": "Full zip hoodie with pockets for everyday use.",
+    "price": 5999,
+    "images": [
+      "https://m.media-amazon.com/images/I/61rwR3r5U4L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Convenient zip.", "Warm and soft."]
+  },
+  {
+    "id": 18,
+    "name": "Bold Logo Graphic Tee",
+    "category": "T-Shirts",
+    "description": "Streetwear style with bold printed logo.",
+    "price": 2799,
+    "images": [
+      "https://www.allmountainstyle.com/cdn/shop/files/AMSTEE-HELLGANG3xweb_800x.jpg?v=1744186710"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Cool graphic.", "Soft cotton."]
+  },
+  {
+    "id": 19,
+    "name": "High Waist Mom Jeans",
+    "category": "Jeans",
+    "description": "Relaxed mom fit high waist jeans.",
+    "price": 6499,
+    "images": [
+      "https://i5.walmartimages.com/seo/Wrangler-Womens-Ripped-Skinny-Jeans-Glacier-2_40a15f2e-865f-40e6-8861-59cedd4f0be5.7821d8632c6d008add11f487e3485b00.jpeg"
+    ],
+    "sizes": ["26", "28", "30"],
+    "colors": ["Light Blue"],
+    "reviews": ["Trendy and comfy.", "Flattering rise."]
+  },
+  {
+    "id": 20,
+    "name": "Off-Shoulder Floral Dress",
+    "category": "Dresses",
+    "description": "Romantic off-shoulder with floral print.",
+    "price": 4499,
+    "images": [
+      "https://i.ebayimg.com/images/g/ae0AAOSwtNZmk~6r/s-l1200.png"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black Floral"],
+    "reviews": ["Romantic vibe.", "Perfect fit."]
+  },
+  {
+    "id": 21,
+    "name": "Cropped Grey Hoodie",
+    "category": "Hoodies",
+    "description": "Trendy cropped hoodie for modern casual look.",
+    "price": 5499,
+    "images": [
+      "https://i.etsystatic.com/46625074/r/il/2ab4c6/5577015034/il_fullxfull.5577015034_l3ob.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Grey"],
+    "reviews": ["Modern crop.", "Warm."]
+  },
+  {
+    "id": 22,
+    "name": "Henley Button Tee",
+    "category": "T-Shirts",
+    "description": "Rugged henley style with button placket.",
+    "price": 2599,
+    "images": [
+      "https://m.media-amazon.com/images/I/61K-ntjbU-L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Navy"],
+    "reviews": ["Stylish buttons.", "Good texture."]
+  },
+  {
+    "id": 23,
+    "name": "Skinny Distressed Jeans",
+    "category": "Jeans",
+    "description": "Slim skinny with heavy distressing.",
+    "price": 6499,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/92f9cf57-d385-4276-a47b-18a7d3e5f515.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["27", "29", "31"],
+    "colors": ["Black"],
+    "reviews": ["Edgy look.", "Stretchy comfort."]
+  },
+  {
+    "id": 24,
+    "name": "V-Neck Wrap Dress",
+    "category": "Dresses",
+    "description": "Elegant V-neck wrap in soft floral fabric.",
+    "price": 4799,
+    "images": [
+      "https://cdn02.pinkoi.com/product/s4is3Lhu/8/640x530.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pink"],
+    "reviews": ["Beautiful drape.", "Comfortable."]
+  },
+  {
+    "id": 25,
+    "name": "Fleece Zip Hoodie",
+    "category": "Hoodies",
+    "description": "Warm fleece-lined full zip hoodie.",
+    "price": 5999,
+    "images": [
+      "https://m.media-amazon.com/images/I/515n6kPBo+L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Extra warm.", "Soft lining."]
+  },
+  {
+    "id": 26,
+    "name": "Oversized Adventure Tee",
+    "category": "T-Shirts",
+    "description": "Relaxed oversized with adventure graphic.",
+    "price": 2899,
+    "images": [
+      "https://www.allmountainstyle.com/cdn/shop/files/AMSTEE-HELLGANG3xweb_800x.jpg?v=1744186710"
+    ],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["White"],
+    "reviews": ["Relaxed vibe.", "Love the print."]
+  },
+  {
+    "id": 27,
+    "name": "Straight Leg Jeans",
+    "category": "Jeans",
+    "description": "Classic straight leg with stretch denim.",
+    "price": 6499,
+    "images": [
+      "https://i.ebayimg.com/images/g/zvoAAOSwUvheMbdm/s-l1200.jpg"
+    ],
+    "sizes": ["30", "32", "34"],
+    "colors": ["Blue"],
+    "reviews": ["Clean fit.", "Durable."]
+  },
+  {
+    "id": 28,
+    "name": "Spaghetti Strap Mini Dress",
+    "category": "Dresses",
+    "description": "Light mini dress with thin straps.",
+    "price": 3499,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/843f86fc-b84b-4582-b3cb-446a8f04a07c.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["XS", "S", "M"],
+    "colors": ["White"],
+    "reviews": ["Breezy and cute.", "Summer essential."]
+  },
+  {
+    "id": 29,
+    "name": "Acid Wash Zip Hoodie",
+    "category": "Hoodies",
+    "description": "Vintage acid wash full zip hoodie.",
+    "price": 5999,
+    "images": [
+      "https://m.media-amazon.com/images/I/61rwR3r5U4L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Black Wash"],
+    "reviews": ["Cool vintage look.", "Comfortable."]
+  },
+  {
+    "id": 30,
+    "name": "Minimal Text Tee",
+    "category": "T-Shirts",
+    "description": "Clean minimalist text print tee.",
+    "price": 2299,
+    "images": [
+      "https://i.etsystatic.com/46107238/r/il/9629e6/5929212822/il_1080xN.5929212822_acsf.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["White"],
+    "reviews": ["Clean design.", "High quality."]
+  },
+  {
+    "id": 31,
+    "name": "Boyfriend Relaxed Jeans",
+    "category": "Jeans",
+    "description": "Loose boyfriend fit for casual days.",
+    "price": 6499,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/59a5b8fb-292d-4fbe-9c50-83ffcd4d9675.__CR0,0,1940,1200_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["27", "29", "31"],
+    "colors": ["Light Blue"],
+    "reviews": ["Relaxed cool.", "Comfy all day."]
+  },
+  {
+    "id": 32,
+    "name": "Tiered Floral Maxi Dress",
+    "category": "Dresses",
+    "description": "Tiered maxi with bright floral print.",
+    "price": 5799,
+    "images": [
+      "https://thelandingworld.com/cdn/shop/files/womens-resort-beach-maxi-dresses-2_1500x.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Orange Floral"],
+    "reviews": ["Flowy and fun.", "Vacation ready."]
+  },
+  {
+    "id": 33,
+    "name": "Sport Full Zip Hoodie",
+    "category": "Hoodies",
+    "description": "Athletic zip hoodie with moisture control.",
+    "price": 5999,
+    "images": [
+      "https://images.stockx.com/images/Broken-Planet-Zip-Up-Hoodie-Soot-Black.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1710441731"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Great for active.", "Breathable."]
+  },
+  {
+    "id": 34,
+    "name": "Striped Long Sleeve Tee",
+    "category": "T-Shirts",
+    "description": "Breathable long sleeve striped tee.",
+    "price": 2999,
+    "images": [
+      "https://www.printingnewyork.com/wp-content/uploads/custom-printing-t-shirts-nyc-0.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Blue/White"],
+    "reviews": ["Nice stripes.", "Layering perfect."]
+  },
+  {
+    "id": 35,
+    "name": "Slim Taper Jeans",
+    "category": "Jeans",
+    "description": "Modern slim taper with stretch.",
+    "price": 6799,
+    "images": [
+      "http://www.gingtto.com/cdn/shop/articles/Men_s_Slim_Fit_Jeans_for_Muscular_Legs.png?v=1719222188"
+    ],
+    "sizes": ["29", "31", "33"],
+    "colors": ["Dark Wash"],
+    "reviews": ["Sharp fit.", "Comfort stretch."]
+  },
+  {
+    "id": 36,
+    "name": "Ruffle Boho Dress",
+    "category": "Dresses",
+    "description": "Boho style with ruffles and floral.",
+    "price": 4299,
+    "images": [
+      "https://cdn01.pinkoi.com/product/s4is3Lhu/8/640x530.jpg"
+    ],
+    "sizes": ["XS", "S", "M"],
+    "colors": ["Multicolor"],
+    "reviews": ["Boho chic.", "Lightweight."]
+  },
+  {
+    "id": 37,
+    "name": "Oversized Black Hoodie",
+    "category": "Hoodies",
+    "description": "Classic oversized in black fleece.",
+    "price": 5999,
+    "images": [
+      "https://images.stockx.com/images/Vetements-Logo-Oversized-Hoodie-Grey.jpg?fit=fill&bg=FFFFFF&w=700&h=500&fm=webp&auto=compress&q=90&dpr=2&trim=color&updated_at=1686578678"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Street style.", "Super soft."]
+  },
+  {
+    "id": 38,
+    "name": "Pocket Henley Tee",
+    "category": "T-Shirts",
+    "description": "Henley with pocket and buttons.",
+    "price": 2599,
+    "images": [
+      "https://m.media-amazon.com/images/I/711EErAYxrL._AC_UY1000_.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Grey"],
+    "reviews": ["Handy pocket.", "Casual cool."]
+  },
+  {
+    "id": 39,
+    "name": "Ripped Mom Jeans",
+    "category": "Jeans",
+    "description": "Mom fit with ripped details.",
+    "price": 6799,
+    "images": [
+      "https://i.ebayimg.com/images/g/zvoAAOSwUvheMbdm/s-l1200.jpg"
+    ],
+    "sizes": ["26", "28", "30"],
+    "colors": ["Light Blue"],
+    "reviews": ["Trendy mom style.", "Comfy."]
+  },
+  {
+    "id": 40,
+    "name": "Deep V Maxi Dress",
+    "category": "Dresses",
+    "description": "Deep V neck maxi with floral split.",
+    "price": 4999,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/a8292d14-a326-40b3-b0c3-a78b91cb01e9.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Green Floral"],
+    "reviews": ["Sexy V neck.", "Flowy."]
+  },
+  {
+    "id": 41,
+    "name": "Cropped Zip Hoodie",
+    "category": "Hoodies",
+    "description": "Cropped zip for trendy look.",
+    "price": 5499,
+    "images": [
+      "https://i.etsystatic.com/46625074/r/il/2ab4c6/5577015034/il_fullxfull.5577015034_l3ob.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Grey"],
+    "reviews": ["Modern crop.", "Warm."]
+  },
+  {
+    "id": 42,
+    "name": "Printed Adventure Tee",
+    "category": "T-Shirts",
+    "description": "Adventure graphic oversized tee.",
+    "price": 2899,
+    "images": [
+      "https://www.allmountainstyle.com/cdn/shop/files/AMSTEE-HELLGANG3xweb_800x.jpg?v=1744186710"
+    ],
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["Black"],
+    "reviews": ["Fun print.", "Relaxed."]
+  },
+  {
+    "id": 43,
+    "name": "Slim Straight Jeans",
+    "category": "Jeans",
+    "description": "Slim straight leg denim.",
+    "price": 6499,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2024/12/BEST-MENS-JEANS-2048px-5145.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["30", "32", "34"],
+    "colors": ["Indigo"],
+    "reviews": ["Clean fit.", "Durable."]
+  },
+  {
+    "id": 44,
+    "name": "Strapless Floral Dress",
+    "category": "Dresses",
+    "description": "Strapless summer floral mini.",
+    "price": 3999,
+    "images": [
+      "https://thelandingworld.com/cdn/shop/files/womens-resort-beach-maxi-dresses-2_1500x.jpg"
+    ],
+    "sizes": ["S", "M"],
+    "colors": ["Orange"],
+    "reviews": ["Cute strapless.", "Breezy."]
+  },
+  {
+    "id": 45,
+    "name": "Full Zip Sport Hoodie",
+    "category": "Hoodies",
+    "description": "Sporty full zip with drawstring.",
+    "price": 5999,
+    "images": [
+      "https://m.media-amazon.com/images/I/61rwR3r5U4L._AC_UY1000_.jpg"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Black"],
+    "reviews": ["Active ready.", "Good quality."]
+  },
+  {
+    "id": 46,
+    "name": "Basic White Oversized Tee",
+    "category": "T-Shirts",
+    "description": "Oversized plain white tee.",
+    "price": 2999,
+    "images": [
+      "https://cdn.thewirecutter.com/wp-content/media/2025/09/BEST-MENS-WHITE-TEES-SUB-2048px-7696.jpg?auto=webp&quality=75&width=1024"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["White"],
+    "reviews": ["Trendy oversized.", "Soft."]
+  },
+  {
+    "id": 47,
+    "name": "High Waist Skinny Jeans",
+    "category": "Jeans",
+    "description": "High waist skinny stretch jeans.",
+    "price": 6499,
+    "images": [
+      "https://m.media-amazon.com/images/S/aplus-media-library-service-media/92f9cf57-d385-4276-a47b-18a7d3e5f515.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+    ],
+    "sizes": ["27", "29", "31"],
+    "colors": ["Blue"],
+    "reviews": ["Slimming.", "Stretchy."]
+  },
+  {
+    "id": 48,
+    "name": "Ruffle Wrap Dress",
+    "category": "Dresses",
+    "description": "Wrap dress with ruffle accents.",
+    "price": 4999,
+    "images": [
+      "https://publish.purewow.net/wp-content/uploads/sites/2/2018/06/banana-republic-floral-midi-dress.jpg?fit=680%2C489"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["Pink"],
+    "reviews": ["Pretty ruffles.", "Flattering."]
+  },
+  {
+    "id": 49,
+    "name": "Grey Fleece Hoodie",
+    "category": "Hoodies",
+    "description": "Warm grey fleece pullover hoodie.",
+    "price": 5999,
+    "images": [
+      "https://exercere.com/cdn/shop/files/EXERCERE_ECOM_OCTOBER_248902_LOWRES.jpg?crop=center&height=599&v=1730995680&width=900"
+    ],
+    "sizes": ["M", "L", "XL"],
+    "colors": ["Grey"],
+    "reviews": ["Cozy fleece.", "Daily favorite."]
+  },
+  {
+    "id": 50,
+    "name": "Minimal Efficient Tee",
+    "category": "T-Shirts",
+    "description": "Minimal text print premium tee.",
+    "price": 2499,
+    "images": [
+      "https://i.etsystatic.com/46107238/r/il/9629e6/5929212822/il_1080xN.5929212822_acsf.jpg"
+    ],
+    "sizes": ["S", "M", "L"],
+    "colors": ["White"],
+    "reviews": ["Clean design.", "High quality."]
+  }
+]

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionHub - Premium Modern Clothing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="loader" class="loader-container">
+        <div class="lds-dual-ring"></div>
+    </div>
+    <header>
+        <nav class="navbar">
+            <div class="brand">FashionHub</div>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li>
+                    <a href="cart.html">
+                        <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor" class="bi bi-cart"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                        </svg>
+                        Cart (<span id="cart-count">0</span>)
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Timeless Fashion,<br>Modern Soul</h1>
+            <p>Elevate everyday style with premium pieces crafted for confidence and comfort.</p>
+            <a href="products.html" class="btn primary-btn">Explore Collection</a>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Favorites</h2>
+        <div class="product-grid" id="featured-grid"></div>
+    </section>
+
+    <section class="new-arrivals">
+        <h2>New This Season</h2>
+        <div class="product-grid" id="new-arrivals-grid"></div>
+    </section>
+
+    <section class="customer-reviews">
+        <h2>Real Voices, Real Style</h2>
+        <div class="reviews-grid" id="reviews-grid"></div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section brand-footer">
+                <h4>FashionHub</h4>
+                <p>Where timeless meets trend. Premium clothing designed in Karachi for the modern you.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="products.html">All Products</a></li>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Best Sellers</a></li>
+                    <li><a href="#">Sale</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Returns & Refunds</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section newsletter">
+                <h4>Get Exclusive Offers</h4>
+                <p>Subscribe for new drops, discounts & style tips</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Join Now</button>
+                </form>
+
+    
+                <div class="payment-methods">
+                    <div class="payment-icons">
+                        <img src="https://img.icons8.com/color/48/visa.png" alt="Visa">
+                        <img src="https://img.icons8.com/color/48/mastercard.png" alt="Mastercard">
+                        <img src="https://img.icons8.com/color/48/paypal.png" alt="Paypal">
+                    
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            © 2026 FashionHub | Crafted with in Karachi, Pakistan | All rights reserved.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
