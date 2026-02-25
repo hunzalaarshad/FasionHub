@@ -250,8 +250,7 @@ function updateCartCount() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const path = location.pathname.toLowerCase();
-
-    if (path.includes('index') || path === '/' || path === '') {
+    if(path.endsWith('/') || path.includes('index')){
         loadProducts();
     } else if (path.includes('products')) {
         loadProducts();
